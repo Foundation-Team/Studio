@@ -15,3 +15,7 @@ D:\VB.net\Project_1\Project_1\bin\Debug\Project_1.exe.config
 D:\VB.net\Project_1\Project_1\obj\Debug\Project_1.exe
 D:\VB.net\Project_1\Project_1\obj\Debug\Project_1.xml
 D:\VB.net\Project_1\Project_1\obj\Debug\Project_1.pdb
+D:\dhruv\Studio\Project_1\Project_1\bin\Debug\Project_1.exe.config
+D:\dhruv\Studio\Project_1\Project_1\obj\Debug\Project_1.exe
+D:\dhruv\Studio\Project_1\Project_1\obj\Debug\Project_1.xml
+D:\dhruv\Studio\Project_1\Project_1\obj\Debug\Project_1.pdb
