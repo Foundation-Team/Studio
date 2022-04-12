@@ -1,0 +1,17 @@
+D:\Project\Project_1\Project_1\bin\Debug\Project_1.exe.config
+D:\Project\Project_1\Project_1\obj\Debug\Project_1.vbprojResolveAssemblyReference.cache
+D:\Project\Project_1\Project_1\obj\Debug\Project_1.Form1.resources
+D:\Project\Project_1\Project_1\obj\Debug\Project_1.Resources.resources
+D:\Project\Project_1\Project_1\obj\Debug\Project_1.Register.resources
+D:\Project\Project_1\Project_1\obj\Debug\Project_1.User.resources
+D:\Project\Project_1\Project_1\obj\Debug\Project_1.vbproj.GenerateResource.Cache
+D:\Project\Project_1\Project_1\obj\Debug\Project_1.xml
+D:\Project\Project_1\Project_1\bin\Debug\Project_1.exe
+D:\Project\Project_1\Project_1\bin\Debug\Project_1.pdb
+D:\Project\Project_1\Project_1\bin\Debug\Project_1.xml
+D:\Project\Project_1\Project_1\obj\Debug\Project_1.exe
+D:\Project\Project_1\Project_1\obj\Debug\Project_1.pdb
+D:\VB.net\Project_1\Project_1\bin\Debug\Project_1.exe.config
+D:\VB.net\Project_1\Project_1\obj\Debug\Project_1.exe
+D:\VB.net\Project_1\Project_1\obj\Debug\Project_1.xml
+D:\VB.net\Project_1\Project_1\obj\Debug\Project_1.pdb
