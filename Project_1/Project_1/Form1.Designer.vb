@@ -211,7 +211,7 @@ Partial Class Form1
         Me.AcceptButton = Me.Button1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.BackColor = System.Drawing.Color.Yellow
         Me.ClientSize = New System.Drawing.Size(384, 403)
         Me.ControlBox = False
         Me.Controls.Add(Me.Panel1)
