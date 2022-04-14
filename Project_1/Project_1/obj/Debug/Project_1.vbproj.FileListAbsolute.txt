@@ -19,3 +19,16 @@ D:\dhruv\Studio\Project_1\Project_1\bin\Debug\Project_1.exe.config
 D:\dhruv\Studio\Project_1\Project_1\obj\Debug\Project_1.exe
 D:\dhruv\Studio\Project_1\Project_1\obj\Debug\Project_1.xml
 D:\dhruv\Studio\Project_1\Project_1\obj\Debug\Project_1.pdb
+E:\Studio\Studio\Project_1\Project_1\bin\Debug\Project_1.exe.config
+E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.exe
+E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.xml
+E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.pdb
+E:\Studio\Studio\Project_1\Project_1\bin\Debug\Project_1.exe
+E:\Studio\Studio\Project_1\Project_1\bin\Debug\Project_1.pdb
+E:\Studio\Studio\Project_1\Project_1\bin\Debug\Project_1.xml
+E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.vbprojResolveAssemblyReference.cache
+E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.Form1.resources
+E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.Resources.resources
+E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.Register.resources
+E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.User.resources
+E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.vbproj.GenerateResource.Cache

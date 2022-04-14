@@ -4,7 +4,7 @@ Public Class DAOClass
 
     Public Sub New()
         Try
-            conn = New SqlConnection("Data Source=DHRUVPRAJAPATI\SQLEXPRESS;Initial Catalog=project_1;Integrated Security=True;Pooling=False")
+            conn = New SqlConnection("Data Source=Dell-G3\sqlexpress;Initial Catalog=Banking_System;Integrated Security=True")
 
         Catch ex As Exception
             MessageBox.Show(ex.Message)

@@ -45,22 +45,25 @@ Partial Class Register
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(275, 410)
+        Me.Label8.Location = New System.Drawing.Point(367, 505)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(53, 21)
+        Me.Label8.Size = New System.Drawing.Size(64, 26)
         Me.Label8.TabIndex = 416
         Me.Label8.Text = "Login"
         '
         'Button2
         '
-        Me.Button2.BackColor = System.Drawing.Color.Lime
+        Me.Button2.BackColor = System.Drawing.Color.Gold
+        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.Button2.Location = New System.Drawing.Point(63, 358)
+        Me.Button2.ForeColor = System.Drawing.Color.Black
+        Me.Button2.Location = New System.Drawing.Point(84, 441)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(284, 39)
+        Me.Button2.Size = New System.Drawing.Size(379, 48)
         Me.Button2.TabIndex = 415
         Me.Button2.Text = "Register"
         Me.Button2.UseVisualStyleBackColor = False
@@ -69,9 +72,10 @@ Partial Class Register
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(83, 412)
+        Me.Label7.Location = New System.Drawing.Point(111, 507)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(196, 16)
+        Me.Label7.Size = New System.Drawing.Size(252, 20)
         Me.Label7.TabIndex = 414
         Me.Label7.Text = "Already have an account?"
         '
@@ -79,9 +83,10 @@ Partial Class Register
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Tai Le", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(10, 302)
+        Me.Label6.Location = New System.Drawing.Point(13, 372)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(177, 26)
+        Me.Label6.Size = New System.Drawing.Size(221, 33)
         Me.Label6.TabIndex = 413
         Me.Label6.Text = "ConfirmPassword"
         '
@@ -90,10 +95,11 @@ Partial Class Register
         Me.TextBox5.BackColor = System.Drawing.Color.AliceBlue
         Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(190, 306)
+        Me.TextBox5.Location = New System.Drawing.Point(253, 377)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox5.MaxLength = 14
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(187, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(249, 26)
         Me.TextBox5.TabIndex = 412
         Me.TextBox5.WordWrap = False
         '
@@ -101,9 +107,10 @@ Partial Class Register
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Tai Le", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(10, 260)
+        Me.Label5.Location = New System.Drawing.Point(13, 320)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(101, 26)
+        Me.Label5.Size = New System.Drawing.Size(125, 33)
         Me.Label5.TabIndex = 411
         Me.Label5.Text = "Password"
         '
@@ -112,10 +119,11 @@ Partial Class Register
         Me.TextBox4.BackColor = System.Drawing.Color.AliceBlue
         Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(190, 260)
+        Me.TextBox4.Location = New System.Drawing.Point(253, 320)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox4.MaxLength = 14
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(187, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(249, 26)
         Me.TextBox4.TabIndex = 410
         Me.TextBox4.WordWrap = False
         '
@@ -123,9 +131,10 @@ Partial Class Register
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Tai Le", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(10, 194)
+        Me.Label4.Location = New System.Drawing.Point(13, 239)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(170, 26)
+        Me.Label4.Size = New System.Drawing.Size(214, 33)
         Me.Label4.TabIndex = 409
         Me.Label4.Text = "Mobile Number*"
         '
@@ -134,10 +143,11 @@ Partial Class Register
         Me.TextBox3.BackColor = System.Drawing.Color.AliceBlue
         Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(190, 194)
+        Me.TextBox3.Location = New System.Drawing.Point(253, 239)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox3.MaxLength = 10
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(187, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(249, 26)
         Me.TextBox3.TabIndex = 408
         Me.TextBox3.WordWrap = False
         '
@@ -145,9 +155,10 @@ Partial Class Register
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Tai Le", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(10, 123)
+        Me.Label3.Location = New System.Drawing.Point(13, 151)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(112, 26)
+        Me.Label3.Size = New System.Drawing.Size(139, 33)
         Me.Label3.TabIndex = 407
         Me.Label3.Text = "Last Name"
         '
@@ -156,10 +167,11 @@ Partial Class Register
         Me.TextBox2.BackColor = System.Drawing.Color.AliceBlue
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(190, 127)
+        Me.TextBox2.Location = New System.Drawing.Point(253, 156)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox2.MaxLength = 15
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(187, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(249, 26)
         Me.TextBox2.TabIndex = 406
         Me.TextBox2.WordWrap = False
         '
@@ -167,9 +179,10 @@ Partial Class Register
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Tai Le", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(10, 84)
+        Me.Label2.Location = New System.Drawing.Point(13, 103)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(115, 26)
+        Me.Label2.Size = New System.Drawing.Size(143, 33)
         Me.Label2.TabIndex = 405
         Me.Label2.Text = "First Name"
         '
@@ -178,10 +191,11 @@ Partial Class Register
         Me.TextBox1.BackColor = System.Drawing.Color.AliceBlue
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(190, 88)
+        Me.TextBox1.Location = New System.Drawing.Point(253, 108)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox1.MaxLength = 15
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(187, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(249, 26)
         Me.TextBox1.TabIndex = 404
         Me.TextBox1.WordWrap = False
         '
@@ -189,9 +203,10 @@ Partial Class Register
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Tai Le", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(123, 9)
+        Me.Label1.Location = New System.Drawing.Point(164, 11)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(156, 45)
+        Me.Label1.Size = New System.Drawing.Size(195, 56)
         Me.Label1.TabIndex = 403
         Me.Label1.Text = "Register"
         '
@@ -203,12 +218,11 @@ Partial Class Register
         'Register
         '
         Me.AcceptButton = Me.Button2
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(392, 455)
-        Me.ControlBox = False
+        Me.ClientSize = New System.Drawing.Size(523, 560)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label7)
@@ -223,6 +237,10 @@ Partial Class Register
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Register"
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

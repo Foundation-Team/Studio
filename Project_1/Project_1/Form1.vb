@@ -1,6 +1,8 @@
 ﻿Public Class Form1
     Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
         Register.Show()
+        Register.Location = New Point(Me.Location.X, Me.Location.Y)
+        Me.Visible = False
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -13,7 +15,7 @@
 
         Dim d As New DAOClass
         Dim obj As SqlClient.SqlDataReader
-        obj = d.getdata("select passwd from login_p where mob_no = '" & TextBox1.Text & "'")
+        obj = d.getdata("select Password from User_data where Username = '" & TextBox1.Text & "'")
 
         If TextBox1.Text = "" Or TextBox2.Text = "" Then
             MsgBox("Please Enter Id and Password ")
@@ -49,15 +51,18 @@
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        ProgressBar1.Increment(1)
         Dim d As String
-        d = Convert.ToString(ProgressBar1.Value)
-        Label9.Text = d + "%"
-
-        If ProgressBar1.Value = 100 Then
-            Me.Visible = False
+        If ProgressBar1.Value < 100 Then
+            ProgressBar1.Value += 10
+            d = Convert.ToString(ProgressBar1.Value)
+            Label9.Text = d + "%"
+        Else
+            Timer1.Stop()
             User.Show()
-            Timer1.Enabled = False
+            Me.Visible = False
         End If
+
+
+
     End Sub
 End Class
