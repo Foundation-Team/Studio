@@ -30,5 +30,5 @@ E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.vbprojResolveAssemblyRe
 E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.Form1.resources
 E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.Resources.resources
 E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.Register.resources
-E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.User.resources
 E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.vbproj.GenerateResource.Cache
+E:\Studio\Studio\Project_1\Project_1\obj\Debug\Project_1.User1.resources

@@ -58,7 +58,7 @@
             Label9.Text = d + "%"
         Else
             Timer1.Stop()
-            User.Show()
+            User1.Show()
             Me.Visible = False
         End If
 

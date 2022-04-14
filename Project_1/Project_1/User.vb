@@ -1,6 +1,10 @@
-﻿Public Class User
+﻿Public Class User1
     Private Sub User_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        TextBox1.Text = Form1.TextBox1.Text
-        TextBox2.Text = Form1.TextBox2.Text
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Form1.Close()
+
     End Sub
 End Class
